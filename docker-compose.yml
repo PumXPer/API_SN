@@ -1,0 +1,6 @@
+services:
+  serialnumber:
+    build: .
+    container_name: serialnumber
+    ports:
+      - "8000:8000"
